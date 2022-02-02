@@ -1,7 +1,6 @@
 #section{
-    /* border:2px solid black; */
-    background:linear-gradient(to right, rgb(251, 251, 251), rgb(211, 182, 211))
-
+    background:linear-gradient(to right, rgb(251, 251, 251), rgb(211, 182, 211));
+    height: 40rem;
 }
 #items{
     display: grid;
@@ -14,12 +13,10 @@
     height:21rem;
     width:25rem;
     border-radius: 1rem;
-    /* border:1px solid blue; */
     margin:0.5rem;
     transition: all 0.5s ease-in-out;
 }
 img:hover{
-    /* transition: all 0.5s ease-in; */
     transform: scale(0.98);
     opacity:0.7;
 }
